@@ -42,4 +42,6 @@ func main() {
 		fmt.Println("error iterating through rows: ", err)
 	}
 
+	fmt.Println("end.")
+
 }
