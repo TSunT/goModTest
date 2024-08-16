@@ -7,6 +7,11 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
+/*
+* 运行server
+* 编译命令 go build -o server.exe .\main.go .\server.go
+* 运行命令 .\server.exe
+ */
 func main() {
 	db, err := sql.Open("mysql", "root:root@tcp(192.168.1.21:3306)/glkj-hb")
 	if err != nil {
